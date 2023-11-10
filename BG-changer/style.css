@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#Red{
+    background-color: red;
+    color: white;
+}
+#Green{
+     background-color: green;
+    color: white;
+}
+#Blue{
+     background-color: blue;
+    color: white;
+}
+label{
+    font-size: 20px;
+    margin-top: 40px;
+    color: white;
+}

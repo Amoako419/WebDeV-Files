@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+.container{
+     background-image: url(unsplash-Matt\ Barrett.jpg);
+     background-size: cover;
+     background-position: center;
+}
+.calculator-body{
+    /* border: 5px solid white; */
+    backdrop-filter: blur(200px);
+    width: 50%;
+     padding: 20px 50px;
+     margin-left: 280px;
+    
+}
+#output{
+    height: 30px;
+    border: 5px solid white;
+    padding: 10px 100px;
+    text-align: end;
+    font-size: 30px;
+    background: transparent;
+    color: white;
+}
+button{
+    padding: 15px 30px;
+    border:  1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 50px;
+    font-size: bold;
+    background: transparent;
+    color: white;
+    transition: all ease 0.2s;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}

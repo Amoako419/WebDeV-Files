@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="btn">
+        <button id="Red" onclick="red()">Red</button>
+        <button id="Green" onclick="green()">Green</button>
+        <button id="Blue" onclick="blue()">Blue</button>
+        
+    </div>
+    <label for="text" id="text"></label>
+    <script>
+        function red(){
+       document.body.style.backgroundColor='red';
+       var text = document.getElementById("text");
+       text.textContent="This is a red background"   
+        }
+        function green(){
+       document.body.style.backgroundColor='green';
+       var text = document.getElementById("text");
+       text.textContent="This is a green background"  
+        }
+        function blue(){
+       document.body.style.backgroundColor='blue';
+       var text = document.getElementById("text");
+       text.textContent="This is a blue background"  
+        }
+    </script>
+</body>
+</html>
